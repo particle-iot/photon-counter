@@ -17,5 +17,7 @@ A large 7-segment counter to keep track of sold photons
 * Backing - half of a white foam core poster board [like this one](http://www.officedepot.com/a/products/454140/Office-Depot-Brand-Foam-Boards-30/)
 * Fasteners - brass round-head fasteners [like these](http://www.officedepot.com/a/products/613827/Office-Depot-Brand-Round-Head-Fasteners/)
 * Power Supply - 5V USB wall adapter for the Core. We used a 15V 2A adapter for the 7-segments, but 15V 1A is more than enough.  [This 1.6A one](http://www.digikey.com/product-detail/en/EPSA150160U-P5P-SZ/T1072-P5P-ND/2235264) would be perfect.
+
 ---
+
 *The real metric of success isn't the size of your bank account. It's the number of lives in whom you might be able to make a positive difference. - Naveen Jain*
