@@ -21,11 +21,15 @@
  ******************************************************************************
  */
 
+/* Put Core in Semi-automatic mode to resubscribe to events on connection drop*/ 
+SYSTEM_MODE(SEMI_AUTOMATIC);
+
 /* Includes ------------------------------------------------------------------*/
 #include "application.h"
 
 typedef unsigned char byte;
 const int kNumOfSevenSegments = 6;
+
 
 #define OE_PIN A1 // output enable
 #define LE_PIN A2 // latch enable
@@ -125,6 +129,7 @@ void numPhotonsSoldHandler(const char *event, const char *data)
 /* Setup ---------------------------------------------------------------------*/
 void setup()
 {
+	Spark.connect();
 	pinMode(OE_PIN, OUTPUT);
 	pinMode(LE_PIN, OUTPUT);
 	digitalWrite(OE_PIN, LOW);
@@ -139,7 +144,9 @@ void setup()
 /* Loop ----------------------------------------------------------------------*/
 void loop() 
 {
-	// do nothing
+  if(!Spark.connected()) {
+    System.reset();
+  }
 }
 
 
