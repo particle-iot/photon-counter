@@ -21,18 +21,17 @@
  ******************************************************************************
  */
 
-/* Put Core in Semi-automatic mode to resubscribe to events on connection drop*/ 
-SYSTEM_MODE(SEMI_AUTOMATIC);
-
 /* Includes ------------------------------------------------------------------*/
 #include "application.h"
 
 typedef unsigned char byte;
 const int kNumOfSevenSegments = 6;
 
-
 #define OE_PIN A1 // output enable
 #define LE_PIN A2 // latch enable
+
+/* Put Core in Semi-automatic mode to resubscribe to events on connection drop*/ 
+SYSTEM_MODE(SEMI_AUTOMATIC);
 
 /* Prototypes ----------------------------------------------------------------*/
 void numPhotonsSoldHandler(const char *event, const char *data);
