@@ -135,7 +135,7 @@ void setup()
 	SPI.begin();
 	SPI.setBitOrder(MSBFIRST);
 	SPI.setClockDivider(SPI_CLOCK_DIV128);
-	Spark.subscribe("numPhotonsSold", numPhotonsSoldHandler);
+	Spark.subscribe("numPhotonsSold", numPhotonsSoldHandler, MY_DEVICES);
 	Serial.begin(9600);
 }
 
