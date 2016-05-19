@@ -19,6 +19,7 @@ A large _remote/local button operated_ 7-segment counter to keep track of ~~sold
 * Power Supply - 5V USB wall adapter for the Core. We used a 15V 2A adapter for the 7-segments, but 15V 1A is more than enough.  [This 1.6A one](http://www.digikey.com/product-detail/en/EPSA150160U-P5P-SZ/T1072-P5P-ND/2235264) would be perfect.
 * _New:_ Internet button + Photon
 * _New:_ Big industrial push button
+
 ---
 
 *The real metric of success isn't the size of your bank account. It's the number of lives in whom you might be able to make a positive difference. - Naveen Jain*
