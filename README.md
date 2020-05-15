@@ -1,11 +1,11 @@
 photon-counter
 ==============
 
-A large 7-segment counter to keep track of sold photons
+A large 7-segment counter to keep track of sold Particle Photons
 
 ![](http://i.imgur.com/3YVueBd.jpg)
 
-##Parts List
+## Parts List
 
 * Brain - [Spark Core](https://store.spark.io)
 * Driver IC's - 8-channel constant current LED sink driver [TLC5916IN](http://www.digikey.com/product-detail/en/TLC5916IN/296-24383-5-ND/1906409)
